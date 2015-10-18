@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"module": "commonjs",
+		"noImplicitAny": false,
+		"sourceMap": true,
+        "outDir": "./public/scripts"
+	},
+	"files": [
+        "scripts/app.ts",
+        "scripts/entity/Person.ts"
+    ],
+
+	"exclude": [
+        "node_modules"
+    ]
+}

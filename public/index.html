@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="description" content="Angular2">
+    <meta name="viewport" content="width=device-width">
+    <!-- bower:css -->
+    <!-- endbower -->
+
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="lib/systemjs/dist/system.src.js"></script>
+    <script src="lib/angular2/bundles/angular2.dev.js"></script>
+    <script>
+      System.config({
+        packages: {'scripts': {defaultExtension: 'js'}}
+      });
+      System.import('scripts/app');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <my-app>loading...</my-app>
+    </div>
+
+    <!-- bower:js -->
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+
+    <!-- <script src="lib/angular2/angular2.js"></script> -->
+    <script src="/socket.io/socket.io.js"></script>
+
+</body>
+
+</html>

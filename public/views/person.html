@@ -1,0 +1,17 @@
+<div class="row">
+    <h1>
+        My First Angular 2 App by {{ person.firstName }} {{ person.lastName}}
+    </h1>
+
+
+    <form class="col-xs-12 col-sm-6 col-sm-offset-3">
+        <fieldset class="form-group">
+            <label for="firstName">Change first name</label>
+            <input type="text" class="form-control" id="firstName" [(ng-model)]="person.firstName" placeholder="First name">
+        </fieldset>
+        <fieldset class="form-group">
+            <label for="lastName">Change first name</label>
+            <input type="text" class="form-control" [(ng-model)]="person.lastName" placeholder="Last name">
+        </fieldset>
+    </form>
+</div>

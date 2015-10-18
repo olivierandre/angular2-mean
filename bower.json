@@ -1,0 +1,25 @@
+{
+  "name": "angular2",
+  "version": "0.0.1",
+  "authors": [
+    "Olivier Andre <olivier.andre77@gmail.com>"
+  ],
+  "description": "Angular2",
+  "main": "./public/scripts/**/*.js",
+  "keywords": [
+    "Angular 2",
+    "Bootstrap 4"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4-dev",
+    "font-awesome": "~4.4.0"
+  }
+}
